@@ -27,7 +27,7 @@ body {
 .image-first{
     position: absolute;
     width: 150px;
-    top: 30%;
+    bottom: 30%;
 }
 
 .over_lay{
@@ -43,13 +43,13 @@ body {
 
 .loading{
     position: absolute;
-    top: 5%;
+    top: 10%;
 }
 
 .happy-text{
     position: absolute;
     font-size: 20px;
-    bottom: 35%;
+    bottom: 10%;
 }
 
 @keyframes Gradient {
@@ -68,7 +68,7 @@ body {
 .container {
     width: 300px;
     height: 400px;
-    margin-top: -400px;
+    margin-top: -50px;
     position: relative;
 }
 
@@ -308,8 +308,8 @@ body {
   
   .spoke {
     animation: spoke var(--dur) linear infinite;
-    background: radial-gradient(100% 100% at center,hsl(0, 85%, 52%) 4.8%,hsla(0, 94%, 56%, 0) 5%),
-          linear-gradient(hsla(0, 78%, 52%, 0.973) 46.9%,hsl(0, 73%, 42%) 47% 52.9%,hsla(0, 86%, 42%, 0.932) 53%) 50% 50% / 99% 99% no-repeat;
+    background: radial-gradient(100% 100% at center,hsl(0, 9%, 85%) 4.8%,hsla(0, 94%, 56%, 0) 5%),
+          linear-gradient(hsla(0, 13%, 88%, 0.973) 46.9%,hsl(0, 73%, 42%) 47% 52.9%,hsla(0, 86%, 42%, 0.932) 53%) 50% 50% / 99% 99% no-repeat;
   }
   
   /* Animations */

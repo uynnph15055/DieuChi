@@ -57,7 +57,7 @@ btnPrev.addEventListener("click", () => {
 
   setTimeout(() => {
      document.querySelector('.over_lay').remove();
-  }, 5000);
+  }, 10000);
 
   setInterval(() => {
     if (currentIndex == images.length - 1) {
@@ -66,4 +66,4 @@ btnPrev.addEventListener("click", () => {
       currentIndex++;
     }
     updateStatusImage(currentIndex);
-  }, 3000);
+  }, 5000);
